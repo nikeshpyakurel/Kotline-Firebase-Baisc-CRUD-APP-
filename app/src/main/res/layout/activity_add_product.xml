@@ -8,13 +8,22 @@
     android:orientation="vertical"
     tools:context=".ui.activity.AddProductActivity">
 
-    <ImageView
+<!--    <ImageView-->
+<!--        android:layout_width="150dp"-->
+<!--        android:layout_marginTop="30dp"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:id="@+id/imageBrowse"-->
+<!--        android:layout_height="150dp"-->
+<!--        android:src="@drawable/baseline_add_a_photo_24" />-->
+    <com.airbnb.lottie.LottieAnimationView
         android:layout_width="150dp"
         android:layout_marginTop="30dp"
         android:layout_gravity="center"
         android:id="@+id/imageBrowse"
         android:layout_height="150dp"
-        android:src="@drawable/baseline_add_a_photo_24" />
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/upload" />
 
     <TextView
         android:layout_width="wrap_content"

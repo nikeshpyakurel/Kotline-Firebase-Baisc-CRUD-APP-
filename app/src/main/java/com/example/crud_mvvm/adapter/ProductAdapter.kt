@@ -9,6 +9,7 @@ import android.widget.ImageView
 import android.widget.ProgressBar
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.airbnb.lottie.LottieAnimationView
 import com.example.crud_mvvm.R
 import com.example.crud_mvvm.ui.activity.UpdateProductActivity
 import com.example.crud_mvvm.model.ProductModel
@@ -24,7 +25,7 @@ class ProductAdapter (var context: Context,var data :
         var productName : TextView = view.findViewById(R.id.lblName)
         var productPrice : TextView = view.findViewById(R.id.lblPrice)
         var productDesc : TextView = view.findViewById(R.id.lblDescription)
-        var btnEdit : TextView = view.findViewById(R.id.btnEdit)
+        var btnEdit : LottieAnimationView = view.findViewById(R.id.btnEdit)
         var imageView : ImageView = view.findViewById(R.id.imageView45)
         var progressBar : ProgressBar = view.findViewById(R.id.progressBar)
     }
